@@ -21,7 +21,6 @@ def main() -> None:
     assert "\n" not in text, "story must be a single line"
     assert text.endswith("."), "story must end as a complete sentence"
     os.makedirs("/output", exist_ok=True)
-    os.chmod("/output", 0o755)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(text)
     os.chmod("/output/entry.txt", 0o644)
