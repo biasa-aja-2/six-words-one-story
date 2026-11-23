@@ -1,15 +1,15 @@
 """Six Words, One Story: write one complete six-word story
 to /output/entry.txt. Pure stdlib, deterministic.
 
-The story: a proposal, a loss, and a habit — "Bought a ring.
-Sold it. Twice." Three beats carry a whole arc: hope (bought),
-failure (sold), repetition (twice) that reframes the first two
-beats and leaves the why for the reader to fill in.
+The story: waiting that never ends — "He waited by the phone.
+Forever." Two beats carry a whole arc: devotion (he waited by
+the phone) and the turn (forever) that reframes the waiting as
+endless, leaving who never called for the reader to fill in.
 """
 
 import os
 
-STORY = "Bought a ring. Sold it. Twice."
+STORY = "He waited by the phone. Forever."
 
 
 def main() -> None:
